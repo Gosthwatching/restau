@@ -1,0 +1,65 @@
+.vrover {
+    display: flex;
+    background-color: $colorbg;
+
+    img {
+        display: flex;
+        margin: auto;
+        width: 80%;
+        height: 20em;
+        object-fit: cover;
+    }
+}
+
+.texter {
+    font-family: $family;
+    font-size: 16px;
+    padding: 30px;
+}
+
+.texterer {
+    font-family: $family;
+    font-size: 16px;
+    padding: 30px;
+}
+
+.textererer {
+    font-family: $family;
+    font-size: 16px;
+    padding: 30px;
+}
+
+@media screen and (min-width:761px) {}
+
+@media screen and (min-width:1023px) {
+
+    .grat {
+        display: grid;
+        margin: auto;
+        gap: 2rem;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        img {
+
+            margin: auto;
+            width: 90%;
+            height: 40em;
+            object-fit: cover;
+        }
+
+        .meet {
+            grid-row: 1;
+            grid-column: 3 / 5;
+        }
+
+        .chaf {
+            grid-row: 2;
+            grid-column: 3 / 5;
+        }
+
+        .carf {
+            grid-row: 1 / 4;
+            grid-column: 1 / 3;
+        }
+    }
+}

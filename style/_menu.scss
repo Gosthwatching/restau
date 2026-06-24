@@ -1,0 +1,269 @@
+.relt {
+    font-family: $familytitle;
+    text-align: center;
+    font-size: 50px;
+}
+
+.batter {
+    background-color: $colorbg;
+}
+
+.ut {
+    font-family: $familytitle;
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+header {
+    background-image: url('image/giphy.gif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -10px;
+    padding: 10px;
+
+    img {
+        width: 10%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+
+    i {
+        margin: 10px;
+        font-size: 150%;
+        color: black;
+    }
+
+    ul {
+        display: none;
+    }
+
+    nav {
+        a {
+            text-decoration: none;
+            font-family: $family;
+            color: var(--color-text);
+        }
+    }
+
+}
+
+@media screen and (min-width:1023px) {
+
+    header {
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .bar {
+            display: none;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+
+            li {
+                padding-left: 10px;
+                margin-right: 20px;
+            }
+        }
+
+        img {
+            width: 10%;
+        }
+    }
+}
+
+#burger:checked+ul {
+    display: block;
+}
+
+input {
+    display: none;
+}
+
+.frek {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 100%;
+        height: 10em;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+
+    .uh {
+        float: left;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .rexte {
+        font-family: $family;
+        font-size: 15px;
+    }
+
+    .uhh {
+        float: right;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .rexter {
+        font-family: $family;
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    .uhhh {
+        float: left;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .rexterdex {
+        font-family: $family;
+        font-size: 15px;
+    }
+}
+
+.elk {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 100%;
+        height: 10em;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+
+    .vro {
+        float: right;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .et {
+        font-family: $family;
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    .vrou {
+        float: left;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .etu {
+        font-family: $family;
+        font-size: 15px;
+    }
+
+    .vroum {
+        float: right;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .etus {
+        font-family: $family;
+        font-size: 15px;
+        padding-left: 20px;
+    }
+}
+
+.ait {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 100%;
+        height: 10em;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+
+    .bur {
+        float: left;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .ni {
+        font-family: $family;
+        font-size: 15px;
+    }
+
+    .go {
+        float: right;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nice {
+        font-family: $family;
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    .ref {
+        float: left;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .real {
+        font-family: $family;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:761px) {}
+
+@media screen and (min-width:1024px) {
+    
+.batter{
+    background-color:clear;
+}
+    .frek {
+        float: left;
+        width: 30%;
+        background-color: $colorbg;
+        border-radius: 1rem;
+
+    }
+
+    .elk {
+        float: left;
+        width: 30%;
+        margin-left:3rem;
+        margin-right: 3rem;
+        background-color: $colorbg;
+        border-radius: 1rem;
+    }
+
+    .ait {
+        float: left;
+        width: 30%;
+        background-color: $colorbg;
+        border-radius: 1rem;
+    }
+
+}

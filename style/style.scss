@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import 'header';
+@import 'menu';
+@import 'about';
+@import 'footer';
+
+$error:#ed9ce4;
+$familytitle: Dela Gothic One;
+$family:Shippori Mincho;
+$family404:Nanum Brush Script;
+$colorbg:#fdfaf5;
+$display:flex;
+$display2:none;
+
+
+
+.gloop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('image/giphy.gif');
+    background-size: cover;
+
+}
+
+.yat {
+    text-align: center;
+}
+
+.lool {
+    color: $error;
+    font-family: $family404;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    font-size: 20em;
+    text-align: center;
+}
+
+.goty {
+    font-size: 25px;
+    font-family: $family;
+    color: $error;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.vrot {
+    background-color: $error;
+    text-decoration: none;
+    font-family: $family;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 0.3em;
+    padding: 15px;
+}
